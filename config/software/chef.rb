@@ -21,6 +21,7 @@ dependency "ruby"
 dependency "rubygems"
 dependency "yajl"
 dependency "bundler"
+dependency "libffi"
 
 version ENV["CHEF_GIT_REV"] || "master"
 
