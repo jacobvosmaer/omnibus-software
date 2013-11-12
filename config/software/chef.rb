@@ -131,6 +131,7 @@ build do
 
   auxiliary_gems = ["highline", "net-ssh-multi"]
   auxiliary_gems << "ruby-shadow" unless platform == "mac_os_x" || platform == "freebsd" || platform == "aix"
+  auxiliary_gems << "berkshelf"
 
   gem ["install",
        auxiliary_gems.join(" "),
