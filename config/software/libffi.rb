@@ -24,7 +24,7 @@ dependency "libgcc"
 #       we'll need to use a more robust link (sourceforge) that will
 #       not change over time.
 source :url => "ftp://sourceware.org/pub/libffi/libffi-3.0.13.tar.gz",
-       :md5 => '45f3b6dbc9ee7c7dfbbbc5feba571529"
+       :md5 => '45f3b6dbc9ee7c7dfbbbc5feba571529'
 
 relative_path "libffi-3.0.13"
 configure_env =
