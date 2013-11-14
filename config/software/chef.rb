@@ -21,9 +21,8 @@ dependency "ruby"
 dependency "rubygems"
 dependency "yajl"
 dependency "bundler"
+dependency "nokogiri"
 dependency "libffi"
-dependency "libxml2"
-dependency "libxlst"
 
 version ENV["CHEF_GIT_REV"] || "master"
 
