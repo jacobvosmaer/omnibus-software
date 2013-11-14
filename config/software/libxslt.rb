@@ -19,6 +19,7 @@ name "libxslt"
 version "1.1.26"
 
 dependency "libxml2"
+dependency "libtool" if platform == "solaris2"
 
 source :url => "ftp://xmlsoft.org/libxml2/libxslt-1.1.26.tar.gz",
        :md5 => "e61d0364a30146aaa3001296f853b2b9"
