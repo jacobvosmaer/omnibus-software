@@ -18,7 +18,7 @@
 name "berkshelf"
 version "2.0.12"
 
-dependency "libffi"
+dependency "libffi" unless platform == 'windows'
 dependency "ruby"
 dependency "rubygems"
 dependency "nokogiri"
