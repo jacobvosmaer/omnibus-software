@@ -21,8 +21,7 @@ dependency "ruby"
 dependency "rubygems"
 dependency "yajl"
 dependency "bundler"
-dependency "nokogiri"
-dependency "libffi"
+depdedency "berkshelf"
 
 version ENV["CHEF_GIT_REV"] || "master"
 
@@ -133,7 +132,6 @@ build do
 
   auxiliary_gems = ["highline", "net-ssh-multi"]
   auxiliary_gems << "ruby-shadow" unless platform == "mac_os_x" || platform == "freebsd" || platform == "aix"
-  auxiliary_gems << "berkshelf"
 
   gem ["install",
        auxiliary_gems.join(" "),
