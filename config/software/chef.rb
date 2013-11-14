@@ -21,7 +21,7 @@ dependency "ruby"
 dependency "rubygems"
 dependency "yajl"
 dependency "bundler"
-depdedency "berkshelf"
+dependency "berkshelf"
 
 version ENV["CHEF_GIT_REV"] || "master"
 
