@@ -19,6 +19,7 @@ name "libffi"
 version "3.0.13"
 
 dependency "libgcc"
+dependency "libtool"
 
 # TODO: this link is subject to change with each new release of zlib.
 #       we'll need to use a more robust link (sourceforge) that will
