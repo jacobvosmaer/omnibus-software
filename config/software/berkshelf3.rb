@@ -15,7 +15,7 @@
 # limitations under the License.
 #
 
-name "berkshelf"
+name "berkshelf3"
 version "3.0.0.beta5"
 
 dependency "libffi" unless platform == 'windows'
