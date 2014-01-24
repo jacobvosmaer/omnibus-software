@@ -28,7 +28,7 @@ dependency "nokogiri"
 # libxml2 pkg-config spec.  override pkg-configs path here to point into our
 # /opt/chef/embedded pkg-configs.  this should probably be done more generally,
 # in core ominbus-ruby.
-env = { PKG_CONFIG_PATH => "#{install_dir}/embedded/lib/pkgconfig" }
+env = { "PKG_CONFIG_PATH" => "#{install_dir}/embedded/lib/pkgconfig" }
 
 build do
   gem "install berkshelf -n #{install_dir}/bin --no-rdoc --no-ri -v #{version}", :env => env
