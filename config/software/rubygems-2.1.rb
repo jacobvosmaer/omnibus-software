@@ -15,7 +15,7 @@
 # limitations under the License.
 #
 
-name "rubygems-2.1.11"
+name "rubygems-2.1"
 version "2.1.11"
 
 dependency "ruby"
