@@ -28,7 +28,7 @@ dependency "gdbm" if (platform == "mac_os_x" or platform == "freebsd" or platfor
 dependency "libgcc" if (platform == "solaris2" and Omnibus.config.solaris_compiler == "gcc")
 
 source :url => "http://ftp.ruby-lang.org/pub/ruby/2.1/ruby-#{version}.tar.gz",
-       :md5 => '9e6386d53f5200a3e7069107405b93f7"
+       :md5 => '9e6386d53f5200a3e7069107405b93f7'
 
 relative_path "ruby-#{version}"
 
