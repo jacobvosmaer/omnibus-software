@@ -17,8 +17,8 @@
 
 name "chef"
 
-dependency "ruby"
-dependency "rubygems"
+dependency "ruby-2.1"
+dependency "rubygems-2.2"
 dependency "yajl"
 dependency "bundler"
 dependency "berkshelf3"
