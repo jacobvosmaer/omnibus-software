@@ -15,13 +15,13 @@
 # limitations under the License.
 #
 
-name "rubygems-2.2.1"
-version "2.2.1"
+name "rubygems-2.1.11"
+version "2.1.11"
 
 dependency "ruby"
 
 source :url => "http://production.cf.rubygems.org/rubygems/rubygems-#{version}.tgz",
-       :md5 => "3a555b9d579f6a1a1e110628f5110c6b"
+       :md5 => "b561b7aaa70d387e230688066e46e448"
 
 relative_path "rubygems-#{version}"
 
