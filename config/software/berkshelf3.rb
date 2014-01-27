@@ -19,8 +19,8 @@ name "berkshelf3"
 version "3.0.0.beta5"
 
 dependency "libffi" unless platform == 'windows'
-dependency "ruby"
-dependency "rubygems"
+dependency "ruby-2.1"
+dependency "rubygems-2.1"
 dependency "nokogiri"
 
 # nokogiri uses pkg-config, and on a mac that will find the system pkg-config

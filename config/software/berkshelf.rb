@@ -19,8 +19,8 @@ name "berkshelf"
 version "2.0.12"
 
 dependency "libffi" unless platform == 'windows'
-dependency "ruby"
-dependency "rubygems"
+dependency "ruby-2.1"
+dependency "rubygems-2.1"
 dependency "nokogiri"
 
 build do

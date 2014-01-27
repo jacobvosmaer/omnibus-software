@@ -18,7 +18,7 @@
 name "rubygems-2.1"
 version "2.1.11"
 
-dependency "ruby"
+dependency "ruby-2.1"
 
 source :url => "http://production.cf.rubygems.org/rubygems/rubygems-#{version}.tgz",
        :md5 => "b561b7aaa70d387e230688066e46e448"
