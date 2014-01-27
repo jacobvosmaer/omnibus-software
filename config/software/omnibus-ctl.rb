@@ -18,8 +18,8 @@
 name "omnibus-ctl"
 version "0.0.7"
 
-dependency "ruby-2.1"
-dependency "rubygems-2.1"
+dependency "ruby"
+dependency "rubygems"
 dependency "bundler"
 
 source :git => "git://github.com/opscode/omnibus-ctl.git"

@@ -30,7 +30,7 @@ name "mysql2"
 versions_to_install = [ "0.3.6", "0.3.7" ]
 version versions_to_install.join("-")
 
-dependency "ruby-2.1"
+dependency "ruby"
 dependency "bundler"
 
 build do

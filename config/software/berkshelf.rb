@@ -16,13 +16,13 @@
 #
 
 name "berkshelf"
-version "2.0.12"
+version "3.0.0.beta5"
 
 dependency "libffi" unless platform == 'windows'
-dependency "ruby-2.1"
-dependency "rubygems-2.1"
+dependency "ruby"
+dependency "rubygems"
 dependency "nokogiri"
 
 build do
-  gem "install #{name} -n #{install_dir}/bin --no-rdoc --no-ri -v #{version}"
+  gem "install #{name} -n #{install_dir}/bin --no-rdoc --no-ri -v #{version}", :env => env
 end

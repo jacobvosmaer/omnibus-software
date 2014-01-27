@@ -20,8 +20,8 @@ if platform == 'windows'
   dependency "ruby-windows" #includes rubygems
   dependency "ruby-windows-devkit"
 else
-  dependency "ruby-2.1"
-  dependency "rubygems-2.1"
+  dependency "ruby"
+  dependency "rubygems"
   dependency "yajl"
 end
 

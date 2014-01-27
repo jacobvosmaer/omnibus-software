@@ -17,11 +17,11 @@
 
 name "chef"
 
-dependency "ruby-2.1"
-dependency "rubygems-2.1"
+dependency "ruby"
+dependency "rubygems"
 dependency "yajl"
 dependency "bundler"
-dependency "berkshelf3"
+dependency "berkshelf"
 
 version ENV["CHEF_GIT_REV"] || "master"
 
