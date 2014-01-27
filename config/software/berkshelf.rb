@@ -24,5 +24,5 @@ dependency "rubygems"
 dependency "nokogiri"
 
 build do
-  gem "install #{name} -n #{install_dir}/bin --no-rdoc --no-ri -v #{version}", :env => env
+  gem "install #{name} -n #{install_dir}/bin --no-rdoc --no-ri -v #{version}"
 end
