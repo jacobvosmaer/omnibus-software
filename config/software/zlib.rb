@@ -16,7 +16,7 @@
 #
 
 name "zlib"
-version "1.2.6"
+version "1.2.8"
 
 dependency "libgcc"
 
@@ -24,7 +24,7 @@ dependency "libgcc"
 #       we'll need to use a more robust link (sourceforge) that will
 #       not change over time.
 source :url => "http://downloads.sourceforge.net/project/libpng/zlib/1.2.6/zlib-1.2.6.tar.gz",
-       :md5 => "618e944d7c7cd6521551e30b32322f4a"
+       :md5 => "44d667c142d7cda120332623eab69f40"
 
 relative_path "zlib-1.2.6"
 configure_env =
