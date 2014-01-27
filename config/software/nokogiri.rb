@@ -16,7 +16,7 @@
 #
 
 name "nokogiri"
-version "1.5.4"  #FIXME update
+version "1.6.1"  #FIXME update
 
 dependencies ["ruby", "rubygems", "libxml2", "libxslt", "libiconv"]
 
