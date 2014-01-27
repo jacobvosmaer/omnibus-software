@@ -16,15 +16,15 @@
 #
 
 name "libxml2"
-version "2.7.8"  #FIXME: update
+version "2.9.1"
 
 dependency "zlib"
 dependency "libiconv"
 
-source :url => "ftp://xmlsoft.org/libxml2/libxml2-2.7.8.tar.gz",
-       :md5 => "8127a65e8c3b08856093099b52599c86"
+source :url => "ftp://xmlsoft.org/libxml2/libxml2-#{version}.tar.gz",
+       :md5 => "9c0cfef285d5c4a5c80d00904ddab380"
 
-relative_path "libxml2-2.7.8"
+relative_path "libxml2-#{version}"
 
 build do
   cmd = ["./configure",
