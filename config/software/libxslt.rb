@@ -16,7 +16,7 @@
 #
 
 name "libxslt"
-version "1.1.26"
+version "1.1.26"  #FIXME: update
 
 dependency "libxml2"
 dependency "libtool" if platform == "solaris2"

@@ -16,7 +16,7 @@
 #
 
 name "libiconv"
-version "1.14"
+version "1.14"  # FIXME: update
 
 dependency "libgcc"
 

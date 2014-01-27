@@ -16,7 +16,7 @@
 #
 
 name "yajl"
-gem_version = "1.1.0"
+gem_version = "1.1.0"  #FIXME: update
 
 dependency "rubygems"
 

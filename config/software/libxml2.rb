@@ -16,7 +16,7 @@
 #
 
 name "libxml2"
-version "2.7.8"
+version "2.7.8"  #FIXME: update
 
 dependency "zlib"
 dependency "libiconv"
