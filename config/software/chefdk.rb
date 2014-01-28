@@ -33,6 +33,6 @@ build do
   gem ["install",
        auxiliary_gems.join(" "),
        "-n #{install_dir}/bin",
-       "--no-rdoc --no-ri"].join(" "), :env => env.merge({"PATH" => "#{install_dir}/embedded/bin:#{ENV['PATH']}"})
+       "--no-rdoc --no-ri"].join(" "), :env => {"PATH" => "#{install_dir}/embedded/bin:#{ENV['PATH']}"}
 end
 
