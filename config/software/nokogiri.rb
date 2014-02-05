@@ -32,6 +32,7 @@ build do
        "nokogiri",
        "-v #{version}",
        "--",
+       "--use-system-libraries",
        "--with-xml2-lib=#{install_dir}/embedded/lib",
        "--with-xml2-include=#{install_dir}/embedded/include/libxml2",
        "--with-xslt-lib=#{install_dir}/embedded/lib",
