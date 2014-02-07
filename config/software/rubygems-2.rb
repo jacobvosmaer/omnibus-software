@@ -15,16 +15,16 @@
 # limitations under the License.
 #
 
-name "version-manifest"
-description "generates a version manifest file"
-always_build true
+name "rubygems"
+version "2.2.1"
+
+dependency "ruby"
+
+source :url => "http://production.cf.rubygems.org/rubygems/rubygems-#{version}.tgz",
+       :md5 => "1f0017af0ad3d3ed52665132f80e7443"
+
+relative_path "rubygems-#{version}"
 
 build do
-  block do
-    File.open("#{install_dir}/version-manifest.txt", "w") do |f|
-      f.puts "#{project.name} #{project.build_version}"
-      f.puts ""
-      f.puts Omnibus::Reports.pretty_version_map(project)
-    end
-  end
+  ruby "setup.rb"
 end
